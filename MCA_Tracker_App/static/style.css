@@ -1,0 +1,108 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.topnav {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.topnav h1 {
+    font-size: 1.5rem;
+    color: #2196f3;
+}
+
+.topnav .logout {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+    border-right: 1px solid #e0e0e0;
+}
+
+.sidebar h2 {
+    margin-bottom: 1rem;
+    color: #2196f3;
+}
+
+.sidebar form {
+    margin-bottom: 2rem;
+}
+
+.sidebar input,
+.sidebar select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sidebar input[type="submit"] {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+.deal {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.deal h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 0.5rem;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0%;
+}
