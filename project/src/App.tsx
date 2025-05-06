@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PlusCircle, DollarSign, Calendar, Users, Edit, TrendingUp, Wallet, Target, AlertCircle } from 'lucide-react';
+import { PlusCircle, DollarSign, Calendar, Users, Edit, TrendingUp, Wallet, Target, AlertCircle, Trash2 } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Progress } from '@/components/ui/progress';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+
 
 // Types
 interface Deal {
